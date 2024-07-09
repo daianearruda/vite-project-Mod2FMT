@@ -9,6 +9,10 @@
     font-weight: 500;
 }
 
+.logo{
+    width: 136px;
+    height: 32px;
+}
 .header-background::after {
     content: "";
     position: absolute;
@@ -26,6 +30,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center; 
 }
 
 
@@ -36,6 +41,7 @@ ul{
 li{
 list-style: none;
 margin-left: 2em;
+cursor: pointer;
 }
 
 .sectionHeader{
@@ -62,7 +68,8 @@ margin-left: 2em;
    
 }
 
- span {
+.spanHeader {
+    display: inline-block;
     color: rgb(235, 174, 21)!;
 }
 
@@ -74,6 +81,7 @@ button{
     font-weight: 700;
     padding: 0.8em 1.5em;
     margin-top: 1em;
+    cursor: pointer;
 }
 
 .imgBike img{

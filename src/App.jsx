@@ -1,5 +1,7 @@
 
-import Header from "./assets/components/Header"
+import CardList from "./assets/components/CardList/cardlist.jsx"
+import Footer from "./assets/components/Footer/Footer.jsx"
+import Header from "./assets/components/Header/Header.jsx"
 
 
 
@@ -10,9 +12,9 @@ function App() {
   
       <Header/>
       
-      
+      <CardList />
 
-      
+      <Footer />
       
     </>
   )

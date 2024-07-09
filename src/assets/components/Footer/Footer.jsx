@@ -1,11 +1,11 @@
-import './Footer.css'
+import '../Footer/Footer.css'
 
 function Footer() {
 
     return (
         <>
             <div className="footer">
-                <ul>
+                <ul className='container'>
                     <li>Bicicletas</li>
                     <li>Seguros</li>
                     <li>Contato</li>

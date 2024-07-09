@@ -1,0 +1,51 @@
+.card-bicicleta {
+    text-align: left;
+    background-color: #ffffff;
+    width: 100%;
+    
+}
+
+.card-bicicleta:hover{
+    .spanCard{
+        width: 20px;
+    }
+}
+
+.card-bicicleta img {
+    width: 320px;
+    border-radius: 4px;
+}
+
+.buttonCard{
+    padding: 0.5em;
+}
+
+.modelo {
+    margin-top: 0.5em;
+    color: #2e2e2e;
+    font-size: 32px;
+    align-items: center;
+}
+
+.titleCard{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.spanCard{
+    display: inline-block;
+    width: 12px;
+    height: 10px; 
+    background-color: rgba(255, 191, 53, 0.836); 
+    transition: 0.2s ease, transform 0.9s ease;
+    
+}
+
+
+.preco {
+    margin-top: 0.5em;
+    color: #595959;
+    font-size: 18px;
+    font-weight:400;
+}
