@@ -1,0 +1,39 @@
+
+.contact-container{
+    background-color: rgb(243, 243, 243);
+    height: 55                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          '0px;
+}
+
+.titleContato{
+    text-align: center;
+    font-size: 52px;
+    padding-bottom: 0.2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+}
+
+input{
+     width: 524px;
+    height: 50px;
+}
+
+.inputs{
+    margin-bottom: 0.5em;
+}
+
+label{
+    display: block;
+    text-align: start;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+textarea{
+    width: 524px;
+    height: 146px;
+}
